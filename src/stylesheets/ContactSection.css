@@ -1,0 +1,23 @@
+/* ContactSection.css */
+.contact-section {
+  padding: 4rem 2rem;
+}
+
+#contact {
+  scroll-margin-top: 50px;
+}
+
+.section-contact-title {
+  text-align: center;
+  color: #10403b;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}

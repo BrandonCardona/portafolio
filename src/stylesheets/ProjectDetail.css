@@ -1,0 +1,138 @@
+.project-detail {
+  color: #1e293b;
+}
+
+.project-banner {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.project-banner-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  color: white;
+  z-index: 3;
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+  font-size: 1.4rem;
+}
+
+.project-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2.5rem 8%;
+}
+
+.project-description {
+  flex: 1 1 60%;
+}
+
+.project-description p {
+  color: rgb(75 85 99 / 1);
+  max-width: 90%;
+}
+
+.project-description h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.project-description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-buttons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #333456;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-buttons a:hover {
+  background: #48429e;
+}
+
+.project-back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: underline;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.project-technologies {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.8);
+  padding: 1.5rem;
+  min-width: 220px;
+  height: fit-content;
+}
+
+.project-technologies h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.project-technologies ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.project-technologies li {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  color: #334155;
+}
+
+.disabled-link {
+  pointer-events: none;
+  background: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+  opacity: 0.6;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: bold;
+}

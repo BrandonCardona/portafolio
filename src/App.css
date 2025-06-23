@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(229, 231, 235);
+  font-family: Raleway, sans-serif;
+}

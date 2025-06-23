@@ -1,0 +1,39 @@
+.header {
+  background-color: #edf0f3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 2% 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a,
+.nav-list li button {
+  text-decoration: none;
+  color: rgb(75 85 99 / 1);
+  text-transform: uppercase;
+  font-size: 14px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-list li a:hover,
+.nav-list li button:hover {
+  color: #161d28;
+}
