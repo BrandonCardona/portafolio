@@ -98,6 +98,7 @@ function App() {
               seguimiento y la toma de decisiones en entornos comerciales."
               technologies={["PHP", "JavaScript", "MySQL"]}
               repoLink="https://github.com/BrandonCardona/gestor-inventario"
+              demoLink="https://youtu.be/vd84yhqZaiI"
             />
           }
         />
