@@ -65,9 +65,6 @@ const ProjectDetail = ({
               </span>
             )}
           </div>
-          <a href="/" className="project-back-link">
-            Volver
-          </a>
         </div>
 
         <div className="project-technologies">
