@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -15,7 +15,7 @@ import imgPractica from "./assets/practica.png";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/portafolio">
       <Header />
       <Routes>
         <Route
@@ -119,7 +119,7 @@ function App() {
           }
         />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
